@@ -1,0 +1,152 @@
+
+
+.container {
+    padding: 10px 190px;
+}
+li {
+    padding-top: 10px;
+}
+.paragraph_title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+}
+/*Шапка*/
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+    .header_logo h2 {
+        color: #1E90FF;
+        font-size: 18px;
+        text-align: center;
+    }
+.header_companyName {
+    font-size: 26px;
+}
+.line {
+    max-width: 620px;
+}
+    .line hr {
+        border-color: #008080;
+        width: 620px;
+    }
+/**/
+
+/*Блок с описанием */
+.aboutCompany {
+    padding: 40px 0;
+}
+.aboutCompany_body {
+    text-align: center;
+}
+    .aboutCompany_body_text {
+        font-size: 24px;
+        letter-spacing: 0.031em;
+    }
+    .aboutCompany_body_image {
+        padding: 40px 0;
+    }
+        .aboutCompany_body_image img {
+            max-width: 600px;
+        }
+/**/
+
+/*Таблица цен*/
+.price_block {
+    padding: 0 190px;
+}
+table {
+    margin: 0 auto;
+}
+    td {
+        font-size: 20px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+    }
+        .td_title {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #dbdbe7;
+        }
+        .td_price {
+            background: #dbdbe7;
+            font-weight: bold;
+        }
+span {
+    font-size: 18px;
+}
+.phoneNum a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000075;
+}
+    .phoneNum a:hover {
+        color: #1e1ec0;
+    }
+    .phoneNum a:after {
+        content: ' - ';
+    }
+/**/
+
+.aboutProduct {
+    padding: 60px 0;
+}
+.aboutProduct_body {
+    font-size: 24px;
+}
+.aboutProduct_body_text {
+    padding: 40px 0;
+}
+.aboutProduct_body_text h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #002060;
+}
+.aboutProduct_body_text a {
+    color: #002060;
+}
+.body_text_var1 {
+    font-size: 24px;
+    font-style: italic;
+    color: #7030a0 ;
+}
+.body_text_ol {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.techInfo_madeIn {
+    padding-left: 40px;
+}
+.center {
+    text-align: center;
+}
+
+footer {
+
+    border-top: 2px solid;
+    border-color: #008080;
+}
+.footer_body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    padding: 10px 40px;
+}
+.footer_logo {
+    font-weight: bold;
+}
+.footer_logo>h2{
+    text-align: center;
+    font-size: 26px;
+}
+.footer_text {
+    max-width: 700px;
+    font-size: 18px;
+}
